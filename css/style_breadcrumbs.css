@@ -1,0 +1,30 @@
+#bcrumb, #bcrumb2{
+    color: #000;
+       
+    
+    text-decoration: none;  
+}
+#bcrumb2{
+    pointer-events: none;
+    cursor: default;
+}
+#bcrumb:hover{
+    color: blue;
+}
+.breadcrumb li::before{
+    
+    
+    color: black;
+    content: " ";
+    background-image:  url(../img/img_menu/Shape.svg);
+    background-repeat: no-repeat;
+    font-weight: 400;
+  }
+.breadcrumb{
+    display: flex;
+    padding-left: 36px;
+    align-items: center;
+    gap: 11px;
+    list-style-type: none;
+    content: "\276E";
+}
